@@ -1,0 +1,168 @@
+
+@font-face {
+	font-family: 'SutonnyMJ';
+	src: url('fonts/SutonnyMJ/SutonnyMJ.ttf');
+	src: local('SutonnyMJ'),
+		url('fonts/SutonnyMJ/SutonnyMJ.ttf') format('truetype'),
+		url('fonts/SutonnyMJ/SutonnyMJ-Bold.ttf') format('truetype'),
+		url('fonts/SutonnyMJ/SutonnyMJ-BoldItalic.ttf') format('truetype'),
+		url('fonts/SutonnyMJ/SutonnyMJ-Italic.ttf') format('truetype'),
+		url('fonts/SutonnyMJ/SutonnyOMJ.ttf') format('truetype');
+}
+
+h1,h2
+{
+text-transform: uppercase;
+text-shadow: 0px 6px 6px #CCC;
+}
+
+
+ .banner {
+   	
+	    background: linear-gradient( to bottom, #8BC34A, #4CAF50);
+        border-radius: 10px;
+
+   	}
+
+.box
+{
+box-shadow: 0px 6px 6px #CCC;
+text-align: center;	
+}
+
+.box:hover
+{
+box-shadow:3px 2px 6px gray;
+}
+.box a
+{
+text-decoration:none;
+text-align: center;	
+font-size: 20px;
+}
+
+.box a:hover
+{
+color: green;
+}
+
+.box a:active
+{
+color: pink;
+}
+
+
+.lli
+{
+margin: 3px;
+padding:10px;
+border-style: solid;
+border-radius: 15px;
+text-align: left;
+border-width: 1px;
+}
+
+.lli a
+{
+text-decoration:none;
+}
+
+.lli a:hover
+{
+color: green;
+}
+
+
+. main_content 
+{
+    box-shadow:  0px 2px 1px 3px #f1eaea;
+}
+
+
+
+/* slider area start */
+ .captionOrange, .captionBlack
+        {
+            color: #fff;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 4px;
+        }
+        .captionOrange
+        {
+            background: #EB5100;
+            background-color: rgba(235, 81, 0, 0.6);
+        }
+        .captionBlack
+        {
+            font-size:16px;
+            background: #000;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        a.captionOrange, A.captionOrange:active, A.captionOrange:visited
+        {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        a.captionOrange:hover
+        {
+            color: #eb5100;
+            text-decoration: underline;
+            background-color: #eeeeee;
+            background-color: rgba(238, 238, 238, 0.7);
+        }
+        .bricon
+        {
+            background: url(images/browser-icons.png);
+        }
+
+
+
+
+
+
+
+/* slider area end */
+
+.left_sidebar
+{
+    background-color: #f9f9f9;
+    border-style: inset;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 15px;    
+}
+
+.adm
+{
+	background-color: pink;
+	border-style: inset;
+	border-width: 1px;
+	border-color: gray;
+	border-radius: 15px;	
+}
+.adminbar{
+	font-size: 20px;
+	background-color: #e8e7e6;
+	color: red;
+	border-radius:5px;
+    text-align: center;
+	box-shadow: 0px 6px 6px #CCC;
+	margin-bottom: 5px;
+}
+
+.admin li a {
+text-decoration: none;
+font-size: 20px;
+}
+.admin li a:hover{
+	color:green;
+}
+
+
+.footer{
+	background-color: #CCC;
+	border-radius: 15px;
+
+ }

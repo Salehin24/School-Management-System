@@ -1,0 +1,9 @@
+To login Admin panel;
+
+
+admin username: admin
+admin password: admin
+
+
+
+database name: srms
